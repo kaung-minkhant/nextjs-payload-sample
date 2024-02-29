@@ -1,0 +1,1 @@
+type PageLayoutBlock = Hero | TwoColumn | SimpleRichText | RecentBlogPostsBlock

@@ -1,0 +1,367 @@
+[
+  {
+    "id": "65e073c82de58fb8b9d45061",
+    "name": "Page with Recent Blogs",
+    "slug": "recent",
+    "layout": [
+      {
+        "title": "Recent Blog Posts",
+        "id": "65e073c8d8b5c3279cba9039",
+        "blockType": "recent-blog-posts-block"
+      }
+    ],
+    "createdAt": "2024-02-29T12:08:40.938Z",
+    "updatedAt": "2024-02-29T12:08:40.938Z"
+  },
+  {
+    "id": "65df201ae115a9b55f312b54",
+    "name": "Sample",
+    "slug": "sample",
+    "layout": [
+      {
+        "heading": "Sample Page Heading",
+        "text": "Sample Page Description",
+        "backgroundImage": {
+          "id": "65df2260e115a9b55f312b9f",
+          "alt": "background image",
+          "filename": "background-1.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 185993,
+          "width": 1200,
+          "height": 750,
+          "createdAt": "2024-02-28T12:09:04.827Z",
+          "updatedAt": "2024-02-28T12:09:04.827Z",
+          "url": "http://localhost:4000/media/background-1.jpg"
+        },
+        "id": "65df201afea07540949a2ce3",
+        "blockType": "hero"
+      },
+      {
+        "heading": "Sample Two Column Heading",
+        "text": "Sample Two Column Description",
+        "image": {
+          "id": "65df23ece115a9b55f312c1d",
+          "alt": "two column photo",
+          "filename": "background-2.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 185993,
+          "width": 1200,
+          "height": 750,
+          "createdAt": "2024-02-28T12:15:40.891Z",
+          "updatedAt": "2024-02-28T12:15:40.891Z",
+          "url": "http://localhost:4000/media/background-2.jpg"
+        },
+        "id": "65df23ca95e8e8c5920c4ad0",
+        "blockType": "twoColumn"
+      },
+      {
+        "body": {
+          "root": {
+            "type": "root",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Link",
+                        "type": "text",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "type": "link",
+                    "version": 2,
+                    "fields": {
+                      "url": "https://www.google.com",
+                      "doc": {
+                        "value": {
+                          "id": "65df2260e115a9b55f312b9f",
+                          "alt": "background image",
+                          "filename": "background-1.jpg",
+                          "mimeType": "image/jpeg",
+                          "filesize": 185993,
+                          "width": 1200,
+                          "height": 750,
+                          "createdAt": "2024-02-28T12:09:04.827Z",
+                          "updatedAt": "2024-02-28T12:09:04.827Z",
+                          "url": "http://localhost:4000/media/background-1.jpg"
+                        },
+                        "relationTo": "media"
+                      },
+                      "newTab": true,
+                      "linkType": "custom"
+                    }
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr"
+          }
+        },
+        "id": "65df3ed6e9abd812393b06be",
+        "blockType": "simplerichtext"
+      }
+    ],
+    "createdAt": "2024-02-28T11:59:22.713Z",
+    "updatedAt": "2024-02-28T17:54:22.179Z"
+  },
+  {
+    "id": "65e06d81977754fb2baf89a4",
+    "name": "First Blog Template",
+    "slug": "blog-post-template/fourth-blog",
+    "templateCollection": "blog-posts",
+    "layout": [
+      {
+        "body": {
+          "root": {
+            "type": "root",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "THis is a freaking fourth blog",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr"
+          }
+        },
+        "id": "65e0119de27e60731079426e",
+        "blockType": "simplerichtext"
+      },
+      {
+        "heading": "Fourth Blog",
+        "text": "The path for this blog is /fourth-blog",
+        "backgroundImage": {
+          "id": "65e0116c951fd1279d0bffef",
+          "alt": "hero background",
+          "filename": "background-3.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 185993,
+          "width": 1200,
+          "height": 750,
+          "createdAt": "2024-02-29T05:09:00.048Z",
+          "updatedAt": "2024-02-29T05:09:00.048Z",
+          "url": "http://localhost:4000/media/background-3.jpg"
+        },
+        "id": "65e0119de27e60731079426d",
+        "blockType": "hero"
+      }
+    ],
+    "createdAt": "2024-02-29T05:09:49.598Z",
+    "updatedAt": "2024-02-29T07:53:47.134Z"
+  },
+  {
+    "id": "65e06d4b977754fb2baf897b",
+    "name": "First Blog Template",
+    "slug": "blog-post-template/third-blog",
+    "templateCollection": "blog-posts",
+    "layout": [
+      {
+        "body": {
+          "root": {
+            "type": "root",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "THis is a freaking fourth blog",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr"
+          }
+        },
+        "id": "65e0119de27e60731079426e",
+        "blockType": "simplerichtext"
+      },
+      {
+        "heading": "Third Blog",
+        "text": "The path for this blog is /third-blog",
+        "backgroundImage": {
+          "id": "65e0116c951fd1279d0bffef",
+          "alt": "hero background",
+          "filename": "background-3.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 185993,
+          "width": 1200,
+          "height": 750,
+          "createdAt": "2024-02-29T05:09:00.048Z",
+          "updatedAt": "2024-02-29T05:09:00.048Z",
+          "url": "http://localhost:4000/media/background-3.jpg"
+        },
+        "id": "65e0119de27e60731079426d",
+        "blockType": "hero"
+      }
+    ],
+    "createdAt": "2024-02-29T05:09:49.598Z",
+    "updatedAt": "2024-02-29T07:53:47.134Z"
+  },
+  {
+    "id": "65e0619eb51e14a5143119db",
+    "name": "First Blog Template",
+    "slug": "blog-post-template/second-blog",
+    "templateCollection": "blog-posts",
+    "layout": [
+      {
+        "body": {
+          "root": {
+            "type": "root",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "THis is a freaking fourth blog",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr"
+          }
+        },
+        "id": "65e0119de27e60731079426e",
+        "blockType": "simplerichtext"
+      },
+      {
+        "heading": "Second Blog Post",
+        "text": "The path for this blog is /second-blog",
+        "backgroundImage": {
+          "id": "65e0116c951fd1279d0bffef",
+          "alt": "hero background",
+          "filename": "background-3.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 185993,
+          "width": 1200,
+          "height": 750,
+          "createdAt": "2024-02-29T05:09:00.048Z",
+          "updatedAt": "2024-02-29T05:09:00.048Z",
+          "url": "http://localhost:4000/media/background-3.jpg"
+        },
+        "id": "65e0119de27e60731079426d",
+        "blockType": "hero"
+      }
+    ],
+    "createdAt": "2024-02-29T05:09:49.598Z",
+    "updatedAt": "2024-02-29T07:53:47.134Z"
+  },
+  {
+    "id": "65df58cefcb974735d8d7be0",
+    "name": "First Blog Template",
+    "slug": "blog-post-template/first-post",
+    "templateCollection": "blog-posts",
+    "layout": [
+      {
+        "body": {
+          "root": {
+            "type": "root",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "children": [
+                  {
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "THis is a freaking fourth blog",
+                    "type": "text",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "type": "paragraph",
+                "version": 1
+              }
+            ],
+            "direction": "ltr"
+          }
+        },
+        "id": "65e0119de27e60731079426e",
+        "blockType": "simplerichtext"
+      },
+      {
+        "heading": "First Post (Changed)",
+        "text": "The path for this blog is /first-post",
+        "backgroundImage": {
+          "id": "65e0116c951fd1279d0bffef",
+          "alt": "hero background",
+          "filename": "background-3.jpg",
+          "mimeType": "image/jpeg",
+          "filesize": 185993,
+          "width": 1200,
+          "height": 750,
+          "createdAt": "2024-02-29T05:09:00.048Z",
+          "updatedAt": "2024-02-29T05:09:00.048Z",
+          "url": "http://localhost:4000/media/background-3.jpg"
+        },
+        "id": "65e0119de27e60731079426d",
+        "blockType": "hero"
+      }
+    ],
+    "createdAt": "2024-02-29T05:09:49.598Z",
+    "updatedAt": "2024-02-29T07:53:47.134Z"
+  }
+]
